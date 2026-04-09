@@ -1,4 +1,46 @@
 
+/*** Theme Color Overrides Start ***/
+:root {
+    --bs-primary: #2bbfa5;
+    --bs-secondary: #3a7bd5;
+    --bs-light: #f2fbf8;
+    --bs-dark: #16363d;
+}
+
+.text-primary { color: var(--bs-primary) !important; }
+.bg-primary { background-color: var(--bs-primary) !important; }
+.border-primary { border-color: var(--bs-primary) !important; }
+.link-primary,
+.nav-link { color: var(--bs-primary) !important; }
+
+.btn-primary {
+    color: #00241e !important;
+    background-color: var(--bs-primary) !important;
+    border-color: var(--bs-primary) !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    color: #001814 !important;
+    background-color: #25aa93 !important;
+    border-color: #25aa93 !important;
+}
+
+.btn-outline-primary {
+    color: var(--bs-primary) !important;
+    border-color: var(--bs-primary) !important;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:active {
+    color: #00241e !important;
+    background-color: var(--bs-primary) !important;
+    border-color: var(--bs-primary) !important;
+}
+/*** Theme Color Overrides End ***/
+
 /*** Spinner Start ***/
 #spinner {
     opacity: 0;
